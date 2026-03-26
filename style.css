@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background: #f8f5f0;
+  color: #1f1f1f;
+  line-height: 1.7;
+}
+
+.hero {
+  padding: 80px 20px 60px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  color: #7a6f66;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #5b524b;
+  margin-top: 0;
+}
+
+.intro {
+  font-size: 1.15rem;
+  max-width: 760px;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px 80px;
+}
+
+section {
+  padding: 40px 0;
+  border-top: 1px solid #d8d1c8;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+}
