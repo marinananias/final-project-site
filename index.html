@@ -6,280 +6,941 @@
     <title>From Harpsichord to Hyper-Instrument</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <header class="hero">
-      <p class="eyebrow">Final Project</p>
-      <h1>From Harpsichord to Hyper-Instrument</h1>
-      <h2>How Instrument Technology Reshaped Musical Style</h2>
-
-      <p class="intro">
-        This digital exhibit explores how changes in keyboard instrument
-        technology, from the early eighteenth century to the present, reshaped
-        musical style. The project argues that musical style does not develop
-        independently from the instrument. It emerges in relationship to what an
-        instrument can physically produce, how performers interact with it, and
-        how listeners learn to hear its possibilities and limits.
-      </p>
+      <div class="shell">
+        <div class="hero-card">
+          <div class="hero-grid">
+            <div>
+              <p class="eyebrow">Final Project</p>
+              <h1>From Harpsichord to Hyper-Instrument</h1>
+              <p class="subtitle">
+                How Instrument Technology Reshaped Musical Style
+              </p>
+              <p>
+                This digital exhibit explores how changes in keyboard instrument
+                technology, from the early eighteenth century to the present,
+                reshaped musical style. The project argues that musical style
+                does not develop independently from the instrument, but instead
+                emerges in direct relationship to what an instrument can
+                physically produce, how performers interact with it, and how
+                listeners come to understand its possibilities and limits.
+              </p>
+              <p>
+                Rather than treating style as an abstract or purely
+                compositional phenomenon, this project traces how specific
+                technological changes, mechanisms, materials, interfaces, and
+                systems, reshape the way music is written, performed, and heard.
+              </p>
+            </div>
+            <aside class="hero-panel">
+              <div class="mini-card">
+                <h3>Central Claim</h3>
+                <p>
+                  Keyboard history is also a history of changing musical
+                  possibilities. Each redesign of the instrument reorganizes
+                  composition, performance, and listening.
+                </p>
+              </div>
+              <div class="mini-card">
+                <h3>How to Read This Exhibit</h3>
+                <p>
+                  Each section pairs a technological shift with one musical
+                  example, a short argument about style, and spaces for audio
+                  and image materials.
+                </p>
+                <div class="chips">
+                  <span class="chip">Mechanism</span>
+                  <span class="chip">Touch</span>
+                  <span class="chip">Resonance</span>
+                  <span class="chip">Programmability</span>
+                  <span class="chip">Interaction</span>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
     </header>
 
+    <nav class="sticky-nav" aria-label="Section navigation">
+      <div class="shell">
+        <a class="nav-link" href="#s1">Harpsichord</a>
+        <a class="nav-link" href="#s2">Fortepiano</a>
+        <a class="nav-link" href="#s3">Romantic</a>
+        <a class="nav-link" href="#s4">Industrial</a>
+        <a class="nav-link" href="#s5">Prepared</a>
+        <a class="nav-link" href="#s6">Digital / MIDI</a>
+        <a class="nav-link" href="#s7">Hyper-Instruments</a>
+      </div>
+    </nav>
+
     <main>
-      <section class="section">
-        <h3>Project Argument</h3>
-        <p>
-          Musical style is shaped by technology at every level. Instrument
-          design affects what kinds of gestures are possible, what kinds of
-          sounds are easy or difficult to produce, and what kinds of expression
-          become central to composition and performance.
-        </p>
-        <p>
-          Across this exhibit, each section focuses on a specific technological
-          shift in keyboard history and shows how that shift changes musical
-          behavior. The goal is not simply to trace a timeline of inventions,
-          but to show how evolving instruments reorganize composition,
-          performance, and listening.
-        </p>
-      </section>
+      <div class="shell">
+        <div class="timeline">
+          <section id="s1" class="section-card">
+            <div class="section-grid">
+              <aside class="section-aside">
+                <div class="number">1</div>
+                <span class="period">c. 1700-1750</span>
+                <h2>Harpsichord: Style Under Constraint</h2>
+                <p>
+                  A plucked-string keyboard whose expressive world depends on
+                  clarity, timing, texture, and rhythmic shape rather than
+                  touch-based dynamics.
+                </p>
+                <div class="section-meta">
+                  <div class="meta-block">
+                    <span class="meta-label">Case Study</span>
+                    <strong>Domenico Scarlatti</strong><br />
+                    <em>Sonata in C Major, K. 159</em>
+                  </div>
+                </div>
+              </aside>
+              <div class="section-body">
+                <div class="content-grid">
+                  <div class="content-stack">
+                    <div class="text-panel">
+                      <h3 class="panel-title">Argument</h3>
+                      <p>
+                        As discussed by C. Vere Pilkington, harpsichord players
+                        create contrast through timing, articulation, texture,
+                        and ornament rather than force. This means the
+                        instrument does not simply lack expression. It organizes
+                        expression differently, favoring precision and clarity
+                        over continuous dynamic shaping. <br />
+                        <br />
+                      </p>
+                      <p>
+                        Pilkington also argues that these micro-variations in
+                        rhythm and articulation may even be more musically
+                        significant than dynamic contrast, stating that such
+                        nuances have “far more intrinsically musical value than
+                        the mere dynamic action of hitting a note harder”
+                        (Pilkington, 1935, p. 24, para. 3). This suggests that
+                        the harpsichord does not simply lack expressive
+                        capacity, but instead organizes expression differently,
+                        privileging clarity and precision over continuous
+                        dynamic shaping.
+                      </p>
+                    </div>
+                    <div class="text-panel">
+                      <h3 class="panel-title">Musical Example</h3>
+                      <audio controls preload="none">
+                        <source src="audio/scarlatti.mp3" type="audio/mpeg" />
+                      </audio>
+                      <p>
+                        The piece relies on rapid repeated notes and hand
+                        crossings that depend on precision and articulation
+                        rather than sustained shaping. Contrast comes through
+                        gesture and registral shifts rather than changes in
+                        volume.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content-stack">
+                    <div class="image-panel">
+                      <img
+                        src="images/harpsichord.jpg"
+                        alt="Harpsichord"
+                        class="instrument-image"
+                      />
+                      <p class="image-note">
+                        The Metropolitan Museum of Art. (n.d.). Harpsichord
+                        (Object No. 45.41a-c) [Musical instrument].
+                        https://www.metmuseum.org/art/collection/search/503625
+                      </p>
+                    </div>
+                    <div class="source-panel">
+                      <h3 class="panel-title">Source Anchor</h3>
+                      <blockquote>
+                        “notes can be made to stand out by very slight
+                        variations in rhythm… or by the careful use of texture
+                        or ornament.”
+                      </blockquote>
+                      <p class="source-citation">
+                        Pilkington, 1935, p. 24, para. 2.
+                      </p>
+                    </div>
+                    <div class="takeaway-panel">
+                      <h3 class="panel-title">What Changes</h3>
+                      <ul class="takeaway-list">
+                        <li>
+                          Performers shape expression through timing,
+                          articulation, and phrasing.
+                        </li>
+                        <li>
+                          Listeners attend to rhythmic vitality and textural
+                          clarity.
+                        </li>
+                        <li>
+                          Instrumental constraint actively structures style.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-      <section class="section">
-        <h3>1. Harpsichord: Style Under Constraint (c. 1700-1750)</h3>
-        <p>
-          The harpsichord produces sound by plucking strings. Because of this
-          mechanism, it does not allow the kind of continuous dynamic control
-          that later pianos make possible through touch. Expression therefore
-          depends less on gradual changes in volume and more on articulation,
-          rhythm, timing, texture, and registral contrast.
-        </p>
+          <section id="s2" class="section-card">
+            <div class="section-grid">
+              <aside class="section-aside">
+                <div class="number">2</div>
+                <span class="period">c. 1750-1800</span>
+                <h2>Fortepiano: Style Through Touch</h2>
+                <p>
+                  Instrument that produces sound by striking the strings with
+                  hammers, allowing performers to directly control the volume of
+                  each note through touch, changing how phrasing, nuance, and
+                  musical structure are heard.
+                </p>
+                <div class="section-meta">
+                  <div class="meta-block">
+                    <span class="meta-label">Case Study</span>
+                    <strong>W. A. Mozart</strong><br />
+                    <em>Piano Sonata in C Major, K. 545</em>
+                  </div>
+                  <div class="meta-block">
+                    <span class="meta-label">Core Shift</span>
+                    Dynamics move from optional effect to structural element.
+                  </div>
+                </div>
+              </aside>
+              <div class="section-body">
+                <div class="content-grid">
+                  <div class="content-stack">
+                    <div class="text-panel">
+                      <h3 class="panel-title">Argument</h3>
+                      <p>
+                        As explained in
+                        <em>The Invention and Evolution of the Piano</em>,
+                        Bartolomeo Cristofori's early design introduced a hammer
+                        mechanism in which the force applied to a key determines
+                        how strongly the hammer strikes the string, and
+                        therefore how loud or soft the resulting sound is. This
+                        represents a crucial departure from earlier keyboard
+                        instruments, enabling a range of dynamics unavailable on
+                        the harpsichord.
+                        <br />
+                        <br />
+                      </p>
+                      <p>
+                        The text further emphasizes that this innovation was not
+                        simply mechanical, but expressive: the piano made it
+                        possible to shape musical lines through continuous
+                        variation in intensity, fundamentally altering how music
+                        could be written and performed. By contrast, the
+                        harpsichord's plucking mechanism produces a relatively
+                        fixed volume, limiting expressive contrast to
+                        articulation and texture rather than dynamic gradation.
+                      </p>
+                    </div>
+                    <div class="text-panel">
+                      <h3 class="panel-title">Musical Example</h3>
+                      <audio controls preload="none">
+                        <source src="audio/mozart.mp3" type="audio/mpeg" />
+                      </audio>
+                      <p>
+                        Wolfgang Amadeus Mozart's
+                        <em>Piano Sonata in C Major, K. 545</em> (1788)
+                        illustrates this transformation clearly. The opening
+                        phrase is structurally simple, but its expressive
+                        character depends heavily on dynamic contour and touch.
+                        Subtle differences in how the performer shapes the line,
+                        through changes in volume and phrasing, significantly
+                        affect how the music is perceived.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content-stack">
+                    <div class="image-panel">
+                      <img
+                        src="images/fortepiano.jpg"
+                        alt="Fortepiano"
+                        class="instrument-image"
+                      />
+                      <p class="image-note">
+                        The Metropolitan Museum of Art. (1720). Piano (Object
+                        No. 89.4.1219) [Musical instrument by Bartolomeo
+                        Cristofori].
+                      </p>
+                    </div>
+                    <div class="source-panel">
+                      <h3 class="panel-title">Source Anchor</h3>
+                      <blockquote>
+                        “the tone could be varied according to the pressure of
+                        the fingers on the keys”
+                      </blockquote>
+                      <p class="source-citation">
+                        <em>The Invention and Evolution of the Piano</em>, p. 3,
+                        para. 2.
+                      </p>
+                    </div>
+                    <div class="takeaway-panel">
+                      <h3 class="panel-title">What Changes</h3>
+                      <ul class="takeaway-list">
+                        <li>Touch becomes central to musical meaning.</li>
+                        <li>
+                          Composers write for dynamic contour and phrase
+                          shaping.
+                        </li>
+                        <li>Listeners begin hearing nuance as structure.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-        <p>
-          <strong>Case study:</strong> Domenico Scarlatti,
-          <em>Sonata in C Major, K. 159</em> (c. 1730s).
-        </p>
+          <section id="s3" class="section-card">
+            <div class="section-grid">
+              <aside class="section-aside">
+                <div class="number">3</div>
+                <span class="period">c. 1800-1850</span>
+                <h2>Early Romantic Piano: Resonance and Expansion</h2>
+                <p>
+                  Instrument gains greater range, power, and structural changes
+                  in strings, case, and range which make resonance and
+                  continuity more central to expression.
+                </p>
+                <div class="section-meta">
+                  <div class="meta-block">
+                    <span class="meta-label">Case Study</span>
+                    <strong>L. van Beethoven</strong><br />
+                    <em>Piano Sonata Op. 27 No. 2</em>
+                  </div>
+                  <div class="meta-block">
+                    <span class="meta-label">Core Shift</span>
+                    From attack-based gestures to longer sonic fields.
+                  </div>
+                </div>
+              </aside>
+              <div class="section-body">
+                <div class="content-grid">
+                  <div class="content-stack">
+                    <div class="text-panel">
+                      <h3 class="panel-title">Argument</h3>
+                      <p>
+                        According to
+                        <em>The Invention and Evolution of the Piano</em>, the
+                        piano underwent significant structural transformations
+                        between roughly 1750 and 1850, including developments in
+                        strings, materials, and overall construction, which
+                        contributed to changes in how the instrument sounded and
+                        responded. In particular, the evolution of string
+                        materials and tension played a crucial role. The same
+                        source explains that stronger materials, including iron
+                        and eventually steel wire, allowed strings to withstand
+                        greater tension, which contributed to a more powerful
+                        and sustained sound. These developments made it possible
+                        for tones to project more fully and resonate longer,
+                        expanding the expressive potential of the instrument
+                        beyond the more immediate decay of earlier keyboards.
+                        <br />
+                        <br />
+                      </p>
+                      <p>
+                        At the same time, the range of the piano expanded
+                        significantly. Early instruments had a much more limited
+                        compass, but over time “the piano's range thus nearly
+                        doubled in less than a century,” reflecting a broader
+                        sonic space available to composers.
+                      </p>
+                    </div>
+                    <div class="text-panel">
+                      <h3 class="panel-title">Musical Example</h3>
+                      <audio controls preload="none">
+                        <source src="audio/beethoven.mp3" type="audio/mpeg" />
+                      </audio>
+                      <p>
+                        A clear example of this shift can be found in Ludwig van
+                        Beethoven's
+                        <em
+                          >Piano Sonata in C-sharp minor, Op. 27 No. 2
+                          (“Moonlight”)</em
+                        >
+                        (1801). The first movement depends on sustained texture
+                        and resonance rather than sharply articulated gestures.
+                        The continuous triplet motion and overlapping harmonies
+                        create an atmosphere shaped by prolongation and
+                        connection, made possible by the instrument's growing
+                        ability to support longer spans of sound.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content-stack">
+                    <div class="image-panel">
+                      <img
+                        src="images/romantic.jpg"
+                        alt="Romantic Piano"
+                        class="instrument-image"
+                      />
+                      <p class="image-note">
+                        The Metropolitan Museum of Art. (1827). Grand piano
+                        (Object No. 1972.109) [Musical instrument by John
+                        Broadwood & Sons].
+                      </p>
+                    </div>
+                    <div class="source-panel">
+                      <h3 class="panel-title">Source Anchor</h3>
+                      <blockquote>
+                        “there have been substantial changes in nearly all
+                        aspects of the instrument, including the strings, string
+                        layout, hammers, and case”
+                      </blockquote>
+                      <p class="source-citation">
+                        <em>The Invention and Evolution of the Piano</em>.
+                      </p>
+                    </div>
+                    <div class="takeaway-panel">
+                      <h3 class="panel-title">What Changes</h3>
+                      <ul class="takeaway-list">
+                        <li>
+                          Composers think more in terms of register, pedal, and
+                          sonic environment.
+                        </li>
+                        <li>
+                          Performers shape continuity across longer spans.
+                        </li>
+                        <li>
+                          Listeners hear a more continuous expressive field.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-        <p>
-          This piece demonstrates writing that is closely tied to the
-          harpsichord's mechanical precision. Rapid repeated notes, hand
-          crossings, and sharply profiled gestures rely on clarity of attack
-          rather than sustained dynamic shaping. The music shows how composers
-          could build intensity and contrast even within a comparatively limited
-          dynamic world.
-        </p>
+          <section id="s4" class="section-card">
+            <div class="section-grid">
+              <aside class="section-aside">
+                <div class="number">4</div>
+                <span class="period">c. 1850-1900</span>
+                <h2>Industrial Piano: Power, Range, and Virtuosity</h2>
+                <p>
+                  The industrial-era piano is built to sustain greater string
+                  tension and produce a larger, more resonant sound suitable for
+                  expanding concert spaces.
+                </p>
+                <div class="section-meta">
+                  <div class="meta-block">
+                    <span class="meta-label">Case Study</span>
+                    <strong>Franz Liszt</strong><br />
+                    <em>Hungarian Rhapsody No. 2</em>
+                  </div>
+                  <div class="meta-block">
+                    <span class="meta-label">Core Shift</span>
+                    Instrument design supports projection, spectacle, and force.
+                  </div>
+                </div>
+              </aside>
+              <div class="section-body">
+                <div class="content-grid">
+                  <div class="content-stack">
+                    <div class="text-panel">
+                      <h3 class="panel-title">Argument</h3>
+                      <p>
+                        As discussed in
+                        <em>The Piano: A History in 100 Pieces</em>, one of the
+                        most important innovations of the nineteenth century is
+                        the introduction of the cast-iron frame, which allows
+                        the instrument to withstand much higher string tension
+                        without structural failure. This development makes it
+                        possible to increase both volume and sustain,
+                        fundamentally expanding the expressive capabilities of
+                        the instrument.
+                        <br />
+                        <br />
+                      </p>
+                      <p>
+                        The book also emphasizes that these structural changes
+                        are directly tied to musical practice. With increased
+                        sustain and power, composers begin to write music that
+                        relies on broader dynamic contrasts, denser textures,
+                        and more dramatic gestures. The piano is no longer
+                        limited to clarity and nuance, but becomes capable of
+                        orchestral effects and large-scale sonic projection.
+                      </p>
+                    </div>
+                    <div class="text-panel">
+                      <h3 class="panel-title">Musical Example</h3>
+                      <audio controls preload="none">
+                        <source src="audio/liszt.mp3" type="audio/mpeg" />
+                      </audio>
+                      <p>...</p>
+                    </div>
+                  </div>
+                  <div class="content-stack">
+                    <div class="image-panel">
+                      <img
+                        src="images/industrial.jpg"
+                        alt="Industrial Piano"
+                        class="instrument-image"
+                      />
+                      <p class="image-note">
+                        Sigal Music Museum. (n.d.). Oldest original Steinway
+                        piano, patented 1858. https://sigalmusicmuseum.org
+                      </p>
+                    </div>
+                    <div class="takeaway-panel">
+                      <h3 class="panel-title">What Changes</h3>
+                      <ul class="takeaway-list">
+                        <li>
+                          Performers need more force, endurance, and control.
+                        </li>
+                        <li>
+                          The piano becomes suitable for large public spaces.
+                        </li>
+                        <li>
+                          Virtuosity becomes part of the instrument's identity.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-        <p>
-          For performers, expression emerges through articulation and timing.
-          For listeners, contrast is perceived through motion, density, and
-          gesture rather than through large changes in loudness.
-        </p>
-      </section>
+          <section id="s5" class="section-card">
+            <div class="section-grid">
+              <aside class="section-aside">
+                <div class="number">5</div>
+                <span class="period">1940s-1950s</span>
+                <h2>Prepared Piano: Redefining the Instrument</h2>
+                <p>
+                  The prepared piano, developed most prominently by John Cage,
+                  alters the instrument by placing objects such as screws,
+                  bolts, and rubber between the strings, fundamentally changing
+                  its sonic behavior.
+                </p>
+                <div class="section-meta">
+                  <div class="meta-block">
+                    <span class="meta-label">Case Study</span>
+                    <strong>John Cage</strong><br />
+                    <em>Sonatas and Interludes</em>
+                  </div>
+                  <div class="meta-block">
+                    <span class="meta-label">Core Shift</span>
+                    From stable instrument to variable sound system.
+                  </div>
+                </div>
+              </aside>
+              <div class="section-body">
+                <div class="content-grid">
+                  <div class="content-stack">
+                    <div class="text-panel">
+                      <h3 class="panel-title">Argument</h3>
+                      <p>
+                        This shift reflects a broader reorientation in
+                        twentieth-century musical thinking. As discussed in
+                        <em
+                          >Capturing Sound: How Technology Has Changed Music</em
+                        >, modern musical practices increasingly focus on sound
+                        itself as a material, rather than on pitch alone,
+                        emphasizing timbre, texture, and the physical production
+                        of sound. In this context, modifying the piano becomes a
+                        way of expanding its sonic vocabulary beyond traditional
+                        harmonic functions.
+                      </p>
+                    </div>
+                    <div class="text-panel">
+                      <h3 class="panel-title">Musical Example</h3>
+                      <audio controls preload="none">
+                        <source src="audio/cage.mp3" type="audio/mpeg" />
+                      </audio>
+                      <p>
+                        John Cage's <em>Sonatas and Interludes</em> (1946-48)
+                        exemplifies this transformation. Through precise
+                        preparations, the piano is converted into a hybrid
+                        instrument that produces percussive, metallic, and
+                        non-pitched sounds alongside recognizable tones. The
+                        result is not simply a new timbre layered onto the
+                        piano, but a redefinition of what the instrument is. The
+                        keyboard remains the interface, but the sound-producing
+                        system has been fundamentally altered.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content-stack">
+                    <div class="image-panel">
+                      <img
+                        src="images/prepared.webp"
+                        alt="Prepared Piano"
+                        class="instrument-image"
+                      />
+                      <p class="image-note">
+                        Cage preparing a piano, in 1947.Photograph by Irving
+                        Penn / © 1947 (Renewed 1975) Condé Nast Publications
+                        Inc.
+                      </p>
+                    </div>
+                    <div class="takeaway-panel">
+                      <h3 class="panel-title">What Changes</h3>
+                      <ul class="takeaway-list">
+                        <li>
+                          Composition becomes the design of sonic conditions,
+                          not only pitches.
+                        </li>
+                        <li>
+                          Performers engage with the instrument's internal
+                          setup.
+                        </li>
+                        <li>
+                          Listeners hear the piano as fluid rather than stable.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-      <section class="section">
-        <h3>2. Fortepiano: Style Through Touch (c. 1750-1820)</h3>
-        <p>
-          The fortepiano introduces hammer action, allowing performers to shape
-          sound through touch in a much more direct way. This shift makes
-          dynamic contrast, phrase contour, and expressive nuance central to the
-          musical experience.
-        </p>
+          <section id="s6" class="section-card">
+            <div class="section-grid">
+              <aside class="section-aside">
+                <div class="number">6</div>
+                <span class="period">1980s-1990s</span>
+                <h2>Digital and MIDI Instruments: Programmable Sound</h2>
+                <p>
+                  Instead of directly producing sound through a physical
+                  mechanism, performers generate data that can be stored,
+                  edited, and reassigned across different sound sources.
+                </p>
+                <div class="section-meta">
+                  <div class="meta-block">
+                    <span class="meta-label">Case Study</span>
+                    <strong>MIDI-rendered Mozart</strong><br />
+                    <em>K. 545 phrase</em>
+                  </div>
+                  <div class="meta-block">
+                    <span class="meta-label">Core Shift</span>
+                    Performance becomes editable and reproducible as data.
+                  </div>
+                </div>
+              </aside>
+              <div class="section-body">
+                <div class="content-grid">
+                  <div class="content-stack">
+                    <div class="text-panel">
+                      <h3 class="panel-title">Argument</h3>
+                      <p>
+                        As discussed in Mark Katz's
+                        <em
+                          >Capturing Sound: How Technology Has Changed Music</em
+                        >, recording and digital technologies make it possible
+                        for sound to exist independently of the moment of
+                        performance, allowing it to be manipulated, rearranged,
+                        and reproduced in ways that were previously impossible.
+                        In this context, musical sound becomes a flexible,
+                        editable object rather than a fixed result of physical
+                        action.
+                        <br />
+                        <br />
+                      </p>
+                      <p>
+                        MIDI (Musical Instrument Digital Interface), introduced
+                        in 1983, formalizes this shift by encoding musical
+                        gestures as data, such as pitch, timing, and velocity,
+                        rather than sound itself. A single performance can
+                        therefore be reassigned to different timbres, adjusted
+                        rhythmically, or reinterpreted entirely without
+                        re-performing the original material.
+                      </p>
+                    </div>
+                    <div class="text-panel">
+                      <h3 class="panel-title">Musical Example</h3>
+                      <audio controls preload="none">
+                        <source src="audio/midi-mozart.mp3" type="audio/mpeg" />
+                      </audio>
+                      <p>
+                        A simple example can be seen in a MIDI-rendered Mozart
+                        phrase. The same sequence of notes can be altered after
+                        the fact by modifying timing, articulation, or
+                        instrumentation, producing multiple versions of a
+                        performance that all originate from the same underlying
+                        data. What would once have required multiple
+                        performances can now be achieved through post-production
+                        manipulation.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content-stack">
+                    <div class="image-panel">
+                      <img
+                        src="images/midi.jpg"
+                        alt="MIDI"
+                        class="instrument-image"
+                      />
+                      <p class="image-note">
+                        Museum of Modern Art. (1986). Wind MIDI controller
+                        (model WX7), by Yasuhiro Kira. https://www.moma.org
+                      </p>
+                    </div>
+                    <div class="takeaway-panel">
+                      <h3 class="panel-title">What Changes</h3>
+                      <ul class="takeaway-list">
+                        <li>
+                          Composers design systems of control, not only sonic
+                          outcomes.
+                        </li>
+                        <li>
+                          Performers work through interfaces that mediate
+                          gesture and sound.
+                        </li>
+                        <li>
+                          Listeners encounter musical versions that may never
+                          have existed acoustically.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-        <p>
-          <strong>Case study:</strong> Wolfgang Amadeus Mozart,
-          <em>Piano Sonata in C Major, K. 545</em> (1788), first movement.
-        </p>
+          <section id="s7" class="section-card">
+            <div class="section-grid">
+              <aside class="section-aside">
+                <div class="number">7</div>
+                <span class="period">1990s-Present</span>
+                <h2>Hyper-Instruments: Augmented Expression</h2>
+                <p>
+                  While MIDI systems separate gesture from sound production,
+                  hyper-instruments redefine their relationship entirely.
+                  Instead of simply triggering pre-defined sounds, performers
+                  interact with responsive systems that interpret and transform
+                  gesture in real time.
+                </p>
+                <div class="section-meta">
+                  <div class="meta-block">
+                    <span class="meta-label">Case Study</span>
+                    <strong>Tod Machover</strong><br />
+                    <em>Begin Again Again... for Hypercello Solo - Intro</em>
+                  </div>
+                  <div class="meta-block">
+                    <span class="meta-label">Core Shift</span>
+                    Mediation becomes active during performance itself.
+                  </div>
+                </div>
+              </aside>
+              <div class="section-body">
+                <div class="content-grid">
+                  <div class="content-stack">
+                    <div class="text-panel">
+                      <h3 class="panel-title">Argument</h3>
+                      <p>
+                        This development builds on the broader technological
+                        shift described in Mark Katz's
+                        <em
+                          >Capturing Sound: How Technology Has Changed Music</em
+                        >, in which sound becomes increasingly mediated,
+                        flexible, and subject to transformation beyond the
+                        original act of performance. In hyper-instrument
+                        systems, this mediation is no longer confined to
+                        recording or post-production. It becomes active during
+                        performance itself.
+                      </p>
+                    </div>
+                    <div class="text-panel">
+                      <h3 class="panel-title">Musical Example</h3>
+                      <audio controls preload="none">
+                        <source src="audio/machover.mp3" type="audio/mpeg" />
+                      </audio>
+                      <p>
+                        ....
+                        <br />
+                        <br />
+                      </p>
+                      <p>....</p>
+                    </div>
+                  </div>
+                  <div class="content-stack">
+                    <div class="image-panel">
+                      <img
+                        src="images/hyper.png"
+                        alt="Hyper-Instrument"
+                        class="instrument-image"
+                      />
+                      <p class="image-note">
+                        The Hyperbow allows players of the acoustic cello to
+                        delicately tweak the instrument's timbres without
+                        learning any new bowing techniques
+                      </p>
+                    </div>
+                    <div class="takeaway-panel">
+                      <h3 class="panel-title">What Changes</h3>
+                      <ul class="takeaway-list">
+                        <li>
+                          Composers design systems of interaction rather than
+                          fixed sequences alone.
+                        </li>
+                        <li>
+                          Performers negotiate with a responsive and partly
+                          unpredictable instrument.
+                        </li>
+                        <li>
+                          Listeners hear both human intention and computational
+                          behavior.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-        <p>
-          In this piece, phrasing and dynamic contrast are not secondary
-          features. They help define the character and structure of the music.
-          The same melodic line can feel different depending on emphasis,
-          balance, and touch, which means the performer's control over the
-          instrument becomes more important than it was on the harpsichord.
-        </p>
+          <section id="conclusion" class="section-card conclusion-card">
+            <div class="section-grid">
+              <aside class="section-aside">
+                <div class="number">8</div>
+                <span class="period">Closing Reflection</span>
+                <h2>Conclusion: From Mechanism to Interaction</h2>
+                <p>
+                  The history of keyboard instruments is also a history of
+                  shifting musical possibilities.
+                </p>
+              </aside>
+              <div class="section-body">
+                <div class="content-grid">
+                  <div class="content-stack">
+                    <div class="conclusion-panel">
+                      <h3 class="panel-title">Synthesis</h3>
+                      <p>
+                        Across these transformations, the keyboard evolves from
+                        a fixed mechanical system into a flexible and responsive
+                        interface. Early instruments shape style through
+                        constraint. The piano introduces control through touch,
+                        and later developments expand resonance, range, and
+                        power. Twentieth-century experiments challenge the
+                        identity of the instrument itself, while digital systems
+                        make sound programmable and detachable from performance.
+                        Hyper-instruments extend this trajectory further,
+                        turning performance into an interactive process between
+                        human and machine.
+                      </p>
+                    </div>
+                    <div class="conclusion-panel">
+                      <h3 class="panel-title">Final Claim</h3>
+                      <p>
+                        Musical style is therefore not only influenced by
+                        instruments. It is continuously reorganized by them. At
+                        each stage, changes in how sound is produced lead to
+                        changes in how music is imagined, performed, and
+                        perceived. What begins as a relationship between fingers
+                        and mechanism becomes, over time, a dynamic interaction
+                        between gesture, system, and response.
+                        <br />
+                        <br />
+                      </p>
+                      <p>
+                        Seen in this way, the history of keyboard instruments is
+                        not just a history of technological innovation. It is a
+                        history of shifting musical possibilities, in which each
+                        new instrument redefines what it means to compose,
+                        perform, and listen.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="content-stack">
+                    <div class="takeaway-panel">
+                      <h3 class="panel-title">Throughline</h3>
+                      <ul class="takeaway-list">
+                        <li>Mechanism shapes gesture.</li>
+                        <li>Gesture shapes sound.</li>
+                        <li>Sound shapes style.</li>
+                        <li>New interfaces reshape listening itself.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
 
-        <p>
-          Composers begin to write with greater sensitivity to dynamic shape.
-          Performers gain more direct expressive control. Listeners begin to
-          hear musical meaning through gradation and nuance, not only through
-          rhythm and texture.
-        </p>
-      </section>
-
-      <section class="section">
-        <h3>3. Early Romantic Piano: Resonance and Expansion (c. 1800-1850)</h3>
-        <p>
-          As piano construction develops in the early nineteenth century, the
-          instrument becomes capable of greater sustain, broader range, and more
-          powerful resonance. This does not yet represent the fully mature late
-          nineteenth-century industrial piano, but it does mark an important
-          expansion in expressive scale.
-        </p>
-
-        <p>
-          <strong>Case study:</strong> Ludwig van Beethoven,
-          <em>Piano Sonata in C-sharp minor, Op. 27 No. 2</em> (“Moonlight,”
-          1801), first movement.
-        </p>
-
-        <p>
-          This movement depends on sonority and resonance in ways that move
-          beyond the world of the eighteenth-century keyboard. Its sustained
-          texture and blurred harmonies create an atmosphere that relies on the
-          piano's capacity to prolong and connect sound. Here, style is shaped
-          not just by touch, but by the instrument's growing ability to support
-          longer spans of resonance.
-        </p>
-
-        <p>
-          Composers begin to think more in terms of register, pedal, and sonic
-          environment. Performers shape continuity across larger spans.
-          Listeners hear music less as a sequence of discrete attacks and more
-          as a continuous expressive field.
-        </p>
-      </section>
-
-      <section class="section">
-        <h3>
-          4. Industrial Piano: Power, Range, and Virtuosity (c. 1820-1900)
-        </h3>
-        <p>
-          Nineteenth-century developments in piano construction, including
-          stronger frames, expanded keyboards, and greater projection, support a
-          new scale of sound. The piano becomes louder, more durable, and more
-          orchestral in scope.
-        </p>
-
-        <p>
-          <strong>Case study:</strong> Franz Liszt,
-          <em>Hungarian Rhapsody No. 2</em> (1847).
-        </p>
-
-        <p>
-          This repertory depends on a piano capable of brilliance, power, wide
-          leaps, thick textures, and dramatic contrasts across the keyboard.
-          Virtuosity here is not simply decorative. It emerges from a new kind
-          of instrument that can sustain a larger public, technical, and sonic
-          presence.
-        </p>
-
-        <p>
-          Composers write for expansion in range and force. Performers engage
-          with the piano as a large-scale concert instrument. Listeners
-          experience the keyboard not only as intimate or lyrical, but also as
-          monumental and theatrical.
-        </p>
-      </section>
-
-      <section class="section">
-        <h3>5. Prepared Piano: Redefining the Instrument (1940s-1950s)</h3>
-        <p>
-          By the mid twentieth century, some composers no longer focus on making
-          the piano bigger or more powerful. Instead, they begin to question the
-          identity of the instrument itself. The prepared piano transforms the
-          keyboard by altering its internal sound-producing system.
-        </p>
-
-        <p>
-          <strong>Case study:</strong> John Cage,
-          <em>Sonatas and Interludes</em> (1946-48), selected excerpt.
-        </p>
-
-        <p>
-          By placing objects between or on the strings, Cage turns the piano
-          into a hybrid instrument with percussive, metallic, and muted sounds.
-          The result is a redefinition of what counts as piano sound. Pitch and
-          harmonic continuity become less central, while timbre, attack, and
-          color move to the foreground.
-        </p>
-
-        <p>
-          Composers treat the instrument as something variable rather than
-          fixed. Performers interact not only with keys, but with a redesigned
-          sonic mechanism. Listeners hear the piano less as a stable category
-          and more as a site of experimentation.
-        </p>
-      </section>
-
-      <section class="section">
-        <h3>
-          6. Digital and MIDI Instruments: Programmable Sound (1983-Present)
-        </h3>
-        <p>
-          Digital instruments and MIDI systems introduce a major shift by
-          separating gesture from sound production. Instead of producing sound
-          directly in a fixed mechanical way, performers can trigger and control
-          data that can later be edited, stored, repeated, reassigned, or mapped
-          to different timbres.
-        </p>
-
-        <p>
-          <strong>Case study:</strong> MIDI-rendered phrase from Mozart,
-          <em>Piano Sonata in C Major, K. 545</em> (original 1788, digital
-          reinterpretation).
-        </p>
-
-        <p>
-          In this context, the same phrase can be altered after performance by
-          changing timing, velocity, articulation, or sound source. Expression
-          is no longer tied only to what happened in the instant of performance.
-          It becomes programmable and revisable.
-        </p>
-
-        <p>
-          Composers can design systems of control as much as notes themselves.
-          Performers work through interfaces that mediate between gesture and
-          sound. Listeners encounter musical versions that may never have
-          existed as a single acoustic event.
-        </p>
-      </section>
-
-      <section class="section">
-        <h3>7. Hyper-Instruments: Augmented Expression (c. 1985-Present)</h3>
-        <p>
-          While MIDI makes sound programmable, hyper-instruments go further by
-          transforming the relationship between performer and instrument.
-          Instead of simply triggering sound, the performer interacts with a
-          responsive system that tracks and interprets gesture in real time.
-        </p>
-
-        <p>
-          <strong>Case study:</strong> Tod Machover, <em>Hypercello</em>
-          (1990s).
-        </p>
-
-        <p>
-          In this instrument, sensors capture aspects of the performer's motion
-          and playing, allowing the system to generate, transform, or extend the
-          sound in response. The instrument is no longer just a passive object
-          that converts action into tone. It becomes an interactive partner in
-          performance.
-        </p>
-
-        <p>
-          Composers design relationships between gesture and response.
-          Performers shape music through continuous interaction with responsive
-          technology. Listeners hear sound as the result of both human action
-          and computational interpretation.
-        </p>
-      </section>
-
-      <section class="section conclusion">
-        <h3>8. Conclusion: From Mechanism to Interaction</h3>
-        <p>
-          Across these transformations, the keyboard evolves from a fixed
-          mechanical system into an increasingly flexible and responsive musical
-          interface. Early instruments shape style through physical constraint.
-          Later pianos expand control, resonance, power, and scale. Twentieth-
-          century experiments redefine the identity of the instrument itself.
-          Digital systems make sound programmable, and hyper-instruments turn
-          performance into an interaction between human gesture and responsive
-          technology.
-        </p>
-
-        <p>
-          Musical style is therefore not only influenced by instruments. It is
-          continuously reorganized by them. To understand how music sounds, we
-          also have to understand the tools, mechanisms, and systems that make
-          those sounds possible.
-        </p>
-      </section>
+        <section id="references" class="references">
+          <h2>References</h2>
+          <div class="references-grid">
+            <div class="references-panel">
+              <h3 class="panel-title">Scholarly and Historical Sources</h3>
+              <ul>
+                <li>
+                  Pilkington, C. Vere.
+                  <em>The Harpsichord: Its Present and Future</em>. 1935.
+                </li>
+                <li>
+                  Hess, Albert G.
+                  <em>The Transition from Harpsichord to Piano</em>. 1953.
+                </li>
+                <li>
+                  Cole, Michael.
+                  <em
+                    >Transition from Harpsichord to Pianoforte - the important
+                    rôle of women</em
+                  >. 2002.
+                </li>
+                <li>
+                  Giordano, Nicholas.
+                  <em>The Invention and Evolution of the Piano</em>. 2016.
+                </li>
+                <li>
+                  Katz, Mark.
+                  <em>Capturing Sound: How Technology Has Changed Music</em>.
+                  University of California Press, 2004.
+                </li>
+                <li>
+                  Tomes, Susan. <em>The Piano: A History in 100 Pieces</em>.
+                  Yale University Press, 2021.
+                </li>
+              </ul>
+            </div>
+            <div class="references-panel">
+              <h3 class="panel-title">Musical Works and Listening Examples</h3>
+              <ul>
+                <li>
+                  Scarlatti, Domenico. <em>Sonata in C Major, K. 159</em>. c.
+                  1730s.
+                </li>
+                <li>
+                  Mozart, Wolfgang Amadeus.
+                  <em>Piano Sonata in C Major, K. 545</em>. 1788.
+                </li>
+                <li>
+                  Beethoven, Ludwig van.
+                  <em
+                    >Piano Sonata No. 14 in C-sharp minor, Op. 27 No. 2
+                    (“Moonlight”)</em
+                  >. 1801.
+                </li>
+                <li>Liszt, Franz. <em>Hungarian Rhapsody No. 2</em>. 1847.</li>
+                <li>Cage, John. <em>Sonatas and Interludes</em>. 1946-1948.</li>
+                <li>
+                  Mozart, Wolfgang Amadeus.
+                  <em
+                    >MIDI-rendered excerpt from Piano Sonata in C Major, K.
+                    545</em
+                  >.
+                </li>
+                <li>Machover, Tod. <em>Hypercello</em>. 1990s.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
+
+    <footer>
+      Built as a digital exhibit on how keyboard technology reshapes musical
+      style.
+    </footer>
   </body>
 </html>
