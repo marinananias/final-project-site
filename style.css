@@ -271,6 +271,7 @@ main {
 
 .text-panel,
 .audio-panel,
+.case-study-panel,
 .source-panel,
 .takeaway-panel,
 .conclusion-panel,
@@ -287,9 +288,29 @@ main {
   color: var(--accent);
 }
 
+.case-study-panel {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.case-study-credit {
+  margin: -0.1rem 0 0.2rem !important;
+  color: var(--ink) !important;
+  font-size: 0.98rem;
+  text-align: left !important;
+}
+
+.case-study-composer {
+  font-weight: 700;
+}
+
+.case-study-piece {
+  color: var(--muted);
+}
+
 .audio-panel audio {
   width: 100%;
-  margin-top: 0.35rem;
+  margin-top: 0;
 }
 
 .audio-note {
