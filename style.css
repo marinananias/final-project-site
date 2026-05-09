@@ -71,15 +71,6 @@ a {
   padding: 2.2rem;
 }
 
-.eyebrow {
-  margin: 0 0 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  font-size: 0.78rem;
-  color: var(--accent);
-  font-weight: 700;
-}
-
 h1 {
   margin: 1rem 0;
   font-size: clamp(2.4rem, 5vw, 3.5rem);
@@ -102,6 +93,21 @@ h1 {
   display: grid;
   gap: 1rem;
   align-content: center;
+}
+
+.eyebrow {
+  margin-bottom: -0.3rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.78rem;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.after-eyebrown {
+  color: var(--accent);
+  font-weight: 500;
+  font-size: 0.8rem !important;
 }
 
 .mini-card {
@@ -559,6 +565,14 @@ footer {
   color: var(--muted);
   text-align: center;
   font-size: 0.95rem;
+}
+
+@media (max-width: 640px) {
+  .hero p,
+  .section-card p,
+  .references li {
+    text-align: left;
+  }
 }
 
 @media (max-width: 900px) {
