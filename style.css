@@ -389,11 +389,205 @@ main {
   color: var(--muted);
 }
 
+.overlap-chart-panel {
+  overflow: hidden;
+}
+
+.overlap-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(72, 54, 42, 0.14);
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.overlap-table {
+  width: 100%;
+  min-width: 880px;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.overlap-table th,
+.overlap-table td {
+  padding: 0.9rem 1rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(72, 54, 42, 0.12);
+}
+
+.overlap-table th {
+  background: rgba(72, 54, 42, 0.08);
+  color: #3f332b;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.overlap-table td:first-child {
+  font-weight: 700;
+  color: #3f332b;
+  white-space: nowrap;
+}
+
+.overlap-table tr:last-child td {
+  border-bottom: none;
+}
+
+.overlap-table tbody tr:hover {
+  background: rgba(72, 54, 42, 0.04);
+}
+
+.conclusion-card {
+  padding-bottom: 2rem;
+}
+
+.conclusion-layout {
+  align-items: stretch;
+}
+
+.conclusion-body {
+  display: flex;
+  align-items: stretch;
+}
+
+.throughline-panel {
+  width: 100%;
+}
+
+.throughline-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.85rem;
+}
+
+.throughline-list li {
+  padding: 1rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(72, 54, 42, 0.12);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  min-height: 100%;
+}
+
+.throughline-step {
+  width: 1.65rem;
+  height: 1.65rem;
+  border-radius: 999px;
+  background: rgba(72, 54, 42, 0.12);
+  color: #3f332b;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.78rem;
+  font-weight: 700;
+  flex: 0 0 auto;
+}
+
+.conclusion-full-width {
+  display: grid;
+  gap: 1.25rem;
+  margin: 0.5rem 1.5rem;
+}
+
+.overlap-chart-panel,
+.synthesis-panel {
+  width: 100%;
+}
+
+.overlap-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(72, 54, 42, 0.14);
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.overlap-table {
+  width: 100%;
+  min-width: 880px;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.overlap-table th,
+.overlap-table td {
+  padding: 0.9rem 1rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(72, 54, 42, 0.12);
+}
+
+.overlap-table th {
+  background: rgba(72, 54, 42, 0.08);
+  color: #3f332b;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.overlap-table td:first-child {
+  font-weight: 700;
+  color: #3f332b;
+  white-space: nowrap;
+}
+
+.overlap-table tr:last-child td {
+  border-bottom: none;
+}
+
+.overlap-table tbody tr:hover {
+  background: rgba(72, 54, 42, 0.04);
+}
+
 footer {
   padding: 2rem 0 3rem;
   color: var(--muted);
   text-align: center;
   font-size: 0.95rem;
+}
+
+@media (max-width: 900px) {
+  .throughline-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .throughline-list {
+    grid-template-columns: 1fr;
+  }
+
+  .overlap-table {
+    font-size: 0.82rem;
+  }
+
+  .overlap-table th,
+  .overlap-table td {
+    padding: 0.75rem 0.85rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .overlap-table {
+    font-size: 0.82rem;
+  }
+
+  .overlap-table th,
+  .overlap-table td {
+    padding: 0.75rem 0.85rem;
+  }
 }
 
 @media (max-width: 980px) {
